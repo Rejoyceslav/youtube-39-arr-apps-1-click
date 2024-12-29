@@ -11,6 +11,9 @@ https://github.com/automation-avenue/youtube-39-arr-apps-1-click <br />
 cd /home/marek/Downloads <br />
 unzip youtube-39-arr-apps-1-click <br />
 
+### Notes during installation by you:
+if stuff doesnt work swap localhost for the container name of the service
+
 ### Installation process:
 Make sure you are in the same folder as docker-compose.yml and .env file, then 'up' to deploy, 'stop' and 'rm' to stop and remove the stack  :<br />
 
@@ -87,3 +90,6 @@ Then add media library in Jellyfin  matching folders configured in docker-compos
 /data/TVShows <br />
 /data/Music <br />
 /data/Books <br />
+
+**Jellyseerr:**<br />
+http://localhost:5055<br />
